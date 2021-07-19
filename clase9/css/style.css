@@ -1,0 +1,32 @@
+header{
+    background-color: #E5E5E5 
+}
+
+.logo{
+    text-align: center ;
+}
+#encabezado {
+    background-color:#C4C4C4 ;
+    color: #005677 ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold ;
+    font-style: normal ;
+    font-size: 35px ;
+    text-align: center;
+}
+
+.titulos{
+    color: #005677;
+    background-color: #C4C4C4 ;
+}
+
+#footer{
+    background-color:  #005677;
+    color: white ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold ;
+    font-style: normal ;
+    font-size: 20px ;
+    text-align: center;
+}
+
