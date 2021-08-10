@@ -1,55 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum</title>
-    <link href="css/style.css"  rel="stylesheet">
-    <script src="https://kit.fontawesome.com/1b8977f45c.js" crossorigin="anonymous"></script>
-
+    <title>Petshop clase 9</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class='logo'>
-            <img src="img/unknown.png" alt="Logo de Batman">
+    <!-- Menú regional -->
+        <nav class="barraSuperior">
+            <p>Grandes ofertas en comederos</p>
+            <ul>
+                <li>Español</li>
+                <li>$ARG</li>
+            </ul>
+        </nav>
+        <!-- Barra de menú principal -->
+        <nav id=barraMenuPpal>
+            <img  src="img/Logo.png" alt="Logo FrontCatyDog">
+            <!-- Menú principal -->
+            <ul>
+                <li><i class="fas fa-paw"></i>Categorías</li>
+                <li><i class="fas fa-paw"></i>Pets</li>
+                <li><i class="fas fa-paw"></i>Nosotros</li>
+                <li><i class="fas fa-paw"></i>Contáctanos</li>
+            </ul>
+        </nav>
+    </header> 
+    <!--Contenido para el área principal-->
+    <!-- Sección banner -->
+    <section class="banner">
+        <h1>¡Es un placer tenerte aquí!</h1>
+        <div class="bannerTxtImg">
+            <!-- <img src="img/FondoBanner.png" alt="Imagen background comida perro" > -->
+            <br>
+            <br>
+            <h3>¡Comederos en descuento!</h3>
+            <h4>COMEDEROS</h4>
         </div>
-        <div id='encabezado'>
-            <h1>CURRICULUM VITAE DE LUISA GUZMÁN</h1>
+    </section>
+    <!-- Sección productos -->
+    <section>
+        <img src="img/Patita.png" alt="Imagen patita">
+        <h1>Productos Destacados</h1> 
+        <p>Comederos - Accesorios - Comida</p>
+        <article>
+            <img src="img/Churrasquito.png" alt="Imagen producto 1 -churrasquito">
+            <p class="nombreProd">Juguete Churrasquito</p>
+            <p class="precioProd">$150</p>
+        </article>
+        <article>
+            <img src="img/ComidaDePerro.png" alt="Imagen producto 2 -comida perro">
+            <p class="nombreProd">Juguete Churrasquito</p>
+            <p class="precioProd">$150</p>
+        </article>
+        <article>
+            <img src="img/Huesito.png" alt="Imagen producto 3 - huesito">
+            <p class="nombreProd">Juguete Churrasquito</p>
+            <p class="precioProd">$150</p>
+        </article>
+    </section>
+    <section class="cierre">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Localidad</h3>
+        <p>Calle - provincia</p>
+        <i class="fas fa-phone-volume"></i>
+        <h3>Número de teléfono</h3>
+        <p>15-111-111-111</p>
+        <i class="fas fa-envelope-open-text"></i>
+        <h3>Correo electrónico</h3>
+        <p>15-111-111-111</p>
+        <img  src="img/Logo.png" alt="Logo FrontCatyDog">
+    </section>
+    <!-- Contenido para el pie de página -->
+    <footer>
+        <div id=derechos>
+            <p>Todos los derechos reservados FRONT END</p>
         </div>
-    </header>
-    <br>
-    <br>
-    <br>
-    <br>
-    <main>
-        <h3 class='titulos'>DATOS PERSONALES</h3>
-        <ul>
-            <li> <b><i>Nombre completo:</b></i> Luisa Fernanda Guzmán Mejía</li>
-            <li><b><i>Fecha de nacimiento:</b></i> 31/08/1989</li>
-            <li><b><i>Lugar de nacimiento:</b></i> Medellín</li> 
-        </ul>
-    </section>
-    <section>
-        <h3 class='titulos'>FORMACIÓN ACADÉMICA</h3>
-        <ul>
-            <li><b>2007-2013:</b> Universidad de los Andes</li>
-        </ul>
-    </section>
-    <section>
-        <h3 class='titulos'>EXPERIENCIA LABORAL</h3>
-        <ul>
-            <li><b>2012-2015:</b> Fundación Karisma</li>
-            <li><b>2018:</b> Programa de Acción para la Igualdad y la Inclusión Social - PAIIS</li>
-        </ul>
-    </main>
-    <br>
-    <br>
-    <br>
-    <footer id='footer'>
-    LUISA GUZMÁN <i class="fab fa-instagram"></i> <i class="fab fa-linkedin"></i>
     </footer>
-
 </body>
-
 </html>
