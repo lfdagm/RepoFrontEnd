@@ -1,0 +1,246 @@
+/* Configuración general */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Header */
+.menuSuperior{
+    background-color: #222222;
+    color:#F3F3F3;
+    padding-left: 90px;
+    padding-right: 50px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuSuperior nav{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+header img{
+    width: 333px;
+    height: 46px;}
+
+.menuPrincipal{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 102px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuPrincipal nav{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+/* Sección principal (banner) */
+.banner{
+    background-image:url(/clase_12/img/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 818px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center ; 
+}
+.cajaTextos{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h3{
+    background-color:#FFFFFF;
+    border-radius: 5px;
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: 400;
+    height: 100px;
+    width: 741px;
+    line-height: 98px;
+    margin-right: 19px;
+    text-align: center;
+}
+
+h4{
+    color: #3C2313;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.cajaTextos p{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    border-radius: 5px;
+    height: 70px;
+    width: 200px;
+    font-size: 21px;
+    line-height: 70px;
+    text-align: center;
+}
+/* Sección productos */
+.market{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+height: 1000px;
+}
+
+.txtDestacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* padding-top: 80px; */
+}
+
+h1{
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #3C2313;
+}
+
+.txtDestacados p{
+    padding-top: 70
+    px;
+    color:#666666;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+.productos{
+    display: flex;
+    flex-wrap: nowrap;
+}
+h5{
+    color: #3C2313;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+h6{
+    color: #F0A83E;
+    font-weight: 500;
+    font-size: 20px;
+}
+.churrasquito{
+    background-image: url(/clase_12/img/Churrasquito.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 538px;
+    width: 540px;
+}
+.comedero{
+    background-image: url(/clase_12/img/Cuido.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 538px;
+    width: 540px;
+}
+.huesito{
+    background-image: url(/clase_12/img/Huesito.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 538px;
+    width: 540px;
+}
+/* Footer */
+/* Suscríbete */
+.suscripción{
+    background-color: #F0A83E;
+    height: 50px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 40px;
+
+}
+/* Datos de contacto */
+.datos{
+    background-color: #3C2313;
+    height: 400px;
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+
+}
+.logofooter{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 333px;
+    height: 46px;}
+
+.iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.anidada{
+    color: #8A8787;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+/* Derechos reservados */
+.reservados{
+    background-color: #222222;
+    color:#FFFFFF;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
