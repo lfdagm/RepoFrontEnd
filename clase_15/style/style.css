@@ -1,0 +1,508 @@
+/* Configuración general */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Header */
+.menuSuperior{
+    background-color: #222222;
+    color:#F3F3F3;
+    padding-left: 5.6rem;
+    padding-right: 3.1rem;
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuSuperior nav{
+    display: flex;
+    justify-content: space-around;
+    width: 12.5rem;
+}
+header img{
+    width: 21rem;
+    height: 2.9rem;}
+
+.menuPrincipal{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    height: 6.375rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ajustemq{
+    display: none;
+}
+.menuPrincipal nav{
+    display: flex;
+    justify-content: space-around;
+    width: 37.5rem;
+}
+/* Sección principal (banner) */
+.banner{
+    background-image:url(/clase_12/img/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 51.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center ; 
+}
+.cajaTextos{
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h3{
+    background-color:#FFFFFF;
+    border-radius: 0.3rem;
+    color: #3C2313;
+    font-size: 2.5rem;
+    font-weight: 400;
+    height: 6.25rem;
+    width: 46.313rem;
+    line-height: 6.625rem;
+    margin-right: 1.188rem;
+    text-align: center;
+}
+
+h4{
+    color: #3C2313;
+    font-size: 1.563rem;
+    font-weight: 400;
+}
+
+.cajaTextos p{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    border-radius: 0.3rem;
+    height: 4.375rem;
+    width: 12.5rem;
+    font-size: 1.313rem;
+    line-height: 4.375rem;
+    text-align: center;
+}
+/* Sección productos */
+.market{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+height: 62.5rem;
+}
+
+.txtDestacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* padding-top: 80px; */
+}
+
+h1{
+    padding-top: 1.25rem;
+    font-weight: 700;
+    font-size: 3.125rem;
+    line-height: 3.125rem;
+    color: #3C2313;
+}
+
+.txtDestacados p{
+    padding-top: 4.375rem;
+    color:#666666;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+}
+.productos{
+    display: flex;
+    flex-wrap: nowrap;
+}
+h5{
+    color: #3C2313;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+h6{
+    color: #F0A83E;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.churrasquito{
+    background-image: url(/clase_12/img/Churrasquito.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 33.625rem;
+    width: 33.75rem;
+}
+.comedero{
+    background-image: url(/clase_12/img/Cuido.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 33.625rem;
+    width: 33.75rem;
+}
+.huesito{
+    background-image: url(/clase_12/img/Huesito.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 33.625rem;
+    width: 33.75rem;
+}
+/* Footer */
+/* Suscríbete */
+.suscripción{
+    background-color: #F0A83E;
+    height: 3.125rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.563rem;
+    padding: 0.938rem;
+    margin-top: 2.5rem;
+
+}
+/* Datos de contacto */
+.datos{
+    background-color: #3C2313;
+    height: 25rem;
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 1.875rem;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1.25rem;
+
+}
+.logofooter{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 1.875rem;
+    width: 20.813rem;
+    height: 2.875rem;}
+
+.iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1.25rem;
+    font-size: 2.188rem;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 1.25rem;
+}
+
+.anidada{
+    color: #8A8787;
+    font-size: 1.25rem;
+    list-style-type: none;
+}
+
+/* Derechos reservados */
+.reservados{
+    background-color: #222222;
+    color:#FFFFFF;
+    height: 1.875rem;
+    padding: 0.625rem;
+    text-align: center;
+}
+/* MOBILE */
+/* Samsung Galaxy S5 */
+
+@media (max-width:768px){
+    /* Header */
+.menuSuperior{
+    display: none;
+}
+
+.menuSuperior nav{
+    display: none
+}
+
+.menuPrincipal{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuPrincipal img{
+    width: 10rem;
+    height: 1.5rem;
+    display: flex;
+}
+
+.ajustemq{
+    color:#FFFFFF;
+    font-size: 2rem;
+    display:flex;
+}
+
+.menuPrincipal nav{
+    display: none;
+}
+/* Sección principal (banner) */
+.banner{
+    background-image:url(/clase_12/img/Background.png);
+    background-size: 252%;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.cajaTextos{
+    height: 25vh;
+    /* width: 50vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 7rem;
+    margin-right: 1rem;
+}
+
+h3{
+    background-color:#FFFFFF;
+    border-radius: 0.3rem;
+    color: #3C2313;
+    font-size: 1.5rem;
+    font-weight: 400;
+    height: 3.25rem;
+    width: 87vw;
+    line-height: 3.625rem;
+    text-align: center;
+    margin-right: 0px;
+    
+}
+
+h4{
+    color: #3C2313;
+    font-size: 1rem;
+    font-weight: 400;
+    align-self: flex-end;
+}
+
+.cajaTextos p{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    border-radius: 0.3rem;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+    line-height: 3.375rem;
+    text-align: center;
+    align-self: flex-end;}
+
+/* Sección productos */
+.market{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+height: 70rem;
+}
+
+.txtDestacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 80px; */
+}
+
+h1{
+    /* padding-top: 1.25rem; */
+    font-weight: 700;
+    font-size: 2.56rem;
+    line-height: 3rem;
+    color: #3C2313;
+    text-align: center;
+}
+
+.txtDestacados p{
+    padding-top: 1rem;
+    color:#666666;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.25rem;
+}
+.productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 57rem;
+    /* width: 80vw; */
+    /* flex-wrap: nowrap; */
+}
+h5{
+    color: #3C2313;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+h6{
+    color: #F0A83E;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.churrasquito{
+    background-image: url(/clase_12/img/Churrasquito.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 15rem;
+    width: 14rem;
+}
+.comedero{
+    background-image: url(/clase_12/img/Cuido.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 15rem;
+    width: 14rem;
+}
+.huesito{
+    background-image: url(/clase_12/img/Huesito.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 15rem;
+    width: 14rem;
+}
+/* Footer */
+/* Suscríbete */
+.suscripción{
+    background-color: #F0A83E;
+    height: 3.125rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.938rem;
+    margin-top: 2.5rem;
+
+}
+/* Datos de contacto */
+.datos{
+    background-color: #3C2313;
+    height: 12rem;
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 0rem;
+
+}
+.logofooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    height: fit-content;
+    margin: 0rem;
+}
+.datos img{
+width: 10rem;
+    height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+
+.iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 2.188rem;
+    width: 25vw;
+    order: 1;
+    padding: 0rem;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 46vw;
+    order: 2;
+    padding: 0;
+}
+
+.anidada{
+    color: #8A8787;
+    font-size: 1rem;
+    list-style-type: none;
+    text-align: left;
+}
+
+/* Derechos reservados */
+.reservados{
+    background-color: #222222;
+    color:#FFFFFF;
+    height: 1.875rem;
+    padding: 0.625rem;
+    text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
